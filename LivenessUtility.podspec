@@ -16,12 +16,16 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessUtility"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of LivenessUtility."
+  spec.homepage     = "https://github.com/trungnguyen1791/LivenessUtility"
+  spec.author           = { 'My Name' => 'myemail@example.com' }
+  spec.license      = "MIT"
+  
   spec.platform = :ios
   spec.ios.deployment_target = "13.0"
 
-  spec.source            = { :http => 'https://github.com/trungnguyen1791/LivenessUtility/releases/download/1.0.0/LivenessUtility.zip' }
+  spec.source            = { :http => 'https://github.com/trungnguyen1791/LivenessUtility/releases/download/1.0.1/LivenessUtility.zip' }
   spec.vendored_frameworks = 'LivenessUtility/LivenessUtility.xcframework'
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
